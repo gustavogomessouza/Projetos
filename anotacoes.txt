@@ -1,0 +1,45 @@
+APRENDENDO OOP
+
+
+CLASSE:
+    É a 'blueprint' de um objeto
+    Sempre tem: nome, atributos e métodos
+
+    ex: Forma_de_biscoito
+    -Tem os atributos: cozido, temperatura, cobertura ...
+    -Tem os métodos: coznihar(),congelar(),podecomer(),comer()
+
+
+
+OBJETO:
+    É uma coisa que vem de uma classe e possui atributos, métodos e estado
+    "Um objeto é uma instância de uma classe"
+    Objeto é uma variável que além de guardar dados, pode executar coisas com esses dados
+
+
+    Estado de um objeto: 
+        É o conjunto dos valores de todos os seus atributos em determinado momento
+
+
+
+
+
+GLOSSÁRIO:
+
+    INSTANCIAR = Criar um objeto por meio de uma classe
+    "Um objeto é uma instância de uma classe"
+
+    DUNDER_ATRIBUTE = Um atributo que pertence a todo objeto e que começa e termina com duas underlines
+    ex: __dict__ , __doc__ , etc
+
+    DUNDER_METHOD = Um método que pertence a todo objeto e que começa e termina com duas underlines
+    ex: __init__() , __getstate___()
+
+
+
+
+
+FORMATANDO STRINGS NA HORA DE CHAMAR
+    print(f'{Alguma coisa}:[caractere de preenchimento][onde alinhar (<,>,^,=)][largura da string que voce quer]')
+
+    segunda a IA do google fica: {[fill][align][sign][#][0][width][grouping][.precision][type]}
